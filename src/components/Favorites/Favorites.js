@@ -63,7 +63,6 @@ class Favorites extends Component {
 
     handleChange = (e) => {
         this.setState({ title: e.target.value })
-        console.log(this.state.title);
     };
 
     render() {
